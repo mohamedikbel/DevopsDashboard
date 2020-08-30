@@ -1,0 +1,9 @@
+<?php 
+
+
+$command= "sudo /usr/bin/bat";
+$version = exec($command);
+
+var_dump ($version);
+
+?> 
